@@ -230,14 +230,18 @@
 
 
 300 400 translate
+
+%Layers polygons in increasing order MaximumSides{RecursionDepth Radius ...}
 /polyedge 1 def
 %3 {6 280 polyedge poly /polyedge polyedge 1 add def} repeat
 % 10 {3 280 polyedge poly /polyedge polyedge 1 add def} repeat
 % 15 {3 280 polyedge poly /polyedge polyedge 1 add def} repeat
-  20 {4 280 polyedge poly /polyedge polyedge 1 add def} repeat
+%  20 {4 280 polyedge poly /polyedge polyedge 1 add def} repeat
 % 100 {1 280 polyedge poly /polyedge polyedge 1 add def} repeat
 
-%4 280 5 poly
+
+% Takes in argumets here (RecursionDepth Radius SidesOfPolygon)
+4 280 5 poly
 
 
 
