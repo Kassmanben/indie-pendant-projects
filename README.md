@@ -1,5 +1,4 @@
 # indie-pendant-projects
 
-Hello whirled = lehol! 
+"Hello".whirled = leHol! 
 
-I like books and developing code 
